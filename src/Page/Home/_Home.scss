@@ -1,0 +1,11 @@
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: porcentaje(200);
+    &__feed{
+        width: 802px;
+        height: auto;
+        margin-top: 5%;
+    }
+}

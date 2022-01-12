@@ -1,0 +1,99 @@
+.history-modal{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color:$color-black;
+    z-index: 2;
+    animation: open 0.5s forwards linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__exit{
+        @extend .modalWrapper__exit;
+    }
+    &__logo{
+        @extend .header__logo;
+        position: absolute;
+        top: 32px;
+        left: 80px;
+    }
+    &__img{     
+        width: 382px;
+        height: 674px;
+        border-radius: 10px;
+        position: relative;
+        background-color: aqua;
+        &__user{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            width: 160px;
+            left: 16px;
+            top: 29px;
+            figure{
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: $color-white;
+                img{
+                    width: 90%;
+                    height: 90%;
+                    object-fit: cover;
+                }
+            }
+            p{
+                font-family: $font;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin-left: 16px;
+                color: $color-white;
+
+            }
+
+        }
+        &__footer{
+            width: 100%;
+            height: 64px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+            input{
+                width: 302px;
+                height: 48px;
+                left: 508px;
+                top: 657px;
+                border-radius: 84px;
+                padding: 4px 16px 4px 16px;
+                background-color: unset;
+                border: solid 1px $color-white;
+            }
+            input::placeholder {
+                font-family: $font;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: $color-white;
+                
+            }
+        }
+    }
+
+}

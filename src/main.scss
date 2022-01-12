@@ -1,0 +1,21 @@
+@import './styles/colors';
+@import './styles/fonts';
+@import './styles/base';
+
+//Componentes
+@import './components/User/User';
+@import './components/UserPhoto/userphoto';
+@import './components/Header/hedader';
+@import './components/Post/Post';
+@import './components/Photo/Photo';
+@import './components/Modal/Modal';
+@import './components/History/History';
+
+//Containers
+
+@import './container/Histories/Histories';
+@import './container/Sidebar/Sidebar';
+
+//Pages
+@import './Page/Home/Home';
+@import './Page/Feed/Feed';

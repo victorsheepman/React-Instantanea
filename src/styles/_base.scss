@@ -1,0 +1,46 @@
+
+
+@function porcentaje($width){
+    @return  $width * 100%/1366;
+};
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Avenir';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h4{
+
+    font-family: $font;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.small{
+    font-family: $font;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.medium{
+    @extend .small;
+    font-size: 14px;
+}
