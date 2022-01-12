@@ -1,4 +1,5 @@
 {
+  "homepage":"https://github.com/victorsheepman/React-Instantanea.git", 
   "name": "po-instantanea",
   "version": "1.0.0",
   "description": "APP for pictures",
@@ -7,7 +8,8 @@
     "test": "js sass css",
     "build": "webpack --mode production --config webpack.config.js",
     "start": "webpack serve --config webpack.config.dev.js",
-    "dev": "webpack --mode development --config webpack.config.dev.js"
+    "dev": "webpack --mode development --config webpack.config.dev.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Victor Marquez",
   "license": "ISC",
@@ -26,6 +28,7 @@
     "copy-webpack-plugin": "^10.2.0",
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.3.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",
     "node-sass": "^7.0.1",
