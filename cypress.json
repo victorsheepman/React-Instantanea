@@ -1,0 +1,6 @@
+{   
+    "baseUrl": "https://pedantic-mestorf-c8c768.netlify.app",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1366,
+    "viewportHeight": 800
+}
