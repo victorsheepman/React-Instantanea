@@ -4,13 +4,13 @@ import { User } from '../../components/User/User'
 export const Sidebar = () => {
     return (
         <div className='sidebar'>
-            <User name='victor' user='joaquin.perez' btn='Cambiar' />
+            <User name='joaquin' user='joaquin.perez' btn='Cambiar' />
             <div className='sidebar__users'>
                 <h4>Sugerencia para ti</h4>
-                <User name='victor' user='joaquin.perez' btn='Cambiar' />
-                <User name='victor' user='joaquin.perez' btn='Cambiar' />
-                <User name='victor' user='joaquin.perez' btn='Cambiar' />
-                <User name='victor' user='joaquin.perez' btn='Cambiar' />
+                <User name='carlos' user='Sugerencia para ti' btn='Cambiar' />
+                <User name='esther' user='Sugerencia para ti' btn='Cambiar' />
+                <User name='Almudena' user='Sugerencia para ti' btn='Cambiar' />
+                <User name='juan' user='Sugerencia para ti' btn='Cambiar' />
             </div>
             <div className='sidebar__options'>
                 <div>
