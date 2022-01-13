@@ -2,8 +2,8 @@
 describe('instantanea', function () {
     it('Funcionamiento de rutas y Modales', function () {
         cy.visit('/')
-        /*cy.get('#historiaBtn').contains('Siguiente').click()
-        cy.get('button').contains('Entrar').click()
+        cy.get('#historia').contains('Tu Historia').click()
+        /*cy.get('button').contains('Entrar').click()
         cy.get('div').contains('Rocky').click()
         cy.get('.modalPet__exit').click()
         cy.get('nav').contains('Favoritos').click()

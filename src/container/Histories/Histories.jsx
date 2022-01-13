@@ -5,7 +5,7 @@ const users = [
 {
     name:'Tu Historia',
     img:'User-1',
-    class:'userphoto'
+    class:'userphoto',
 },
 {
     name:'esther',
@@ -41,7 +41,7 @@ const users = [
 export const Histories = () => {
     const [show, setShow] = useState(false);
     return (
-        <div className='histories'>
+        <div className='histories' id='historia'>
             {
                 users.map(
                     (user)=><UserPhoto key={user.name} type={user.class} name={user.name} img={user.img} setState={setShow} />
