@@ -40,7 +40,7 @@ export const Feed = () => {
                 <h4>ETIQUETADAS</h4>
             </nav>
             <div className='feed__post'>
-                <Photo img='feed-1' setState={handleOpen}/>
+                <Photo img='feed-1' setState={handleOpen} id='principal'/>
                 <Photo img='feed-2'/>
                 <Photo img='feed-3'/>
                 <Photo img='feed-4'/>
