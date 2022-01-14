@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { Photo } from '../../components/Photo/Photo'
 import { Modal } from '../../components/Modal/Modal';
+import { Helmet } from 'react-helmet';
 export const Feed = () => {
     const [show, setShow] = useState(false);
   
@@ -9,6 +10,11 @@ export const Feed = () => {
     console.log(show);
     return (
         <div className='feed'>
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Instantanea</title>
+                <meta name="Instantanea" content="Instantanea feed" />
+            </Helmet> 
             <div className='feed__user'>
                 <figure>
                     <img src="assets/images/wendy.png" alt="" />

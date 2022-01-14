@@ -5,12 +5,11 @@
   "description": "APP for pictures",
   "main": "index.js",
   "scripts": {
-    "test": "js sass css",
+    "test": "cypress open",
     "build": "webpack --mode production --config webpack.config.js",
     "start": "webpack serve --config webpack.config.dev.js",
     "dev": "webpack --mode development --config webpack.config.dev.js",
-    "deploy": "gh-pages -d dist",
-    "test":"cypress open"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Victor Marquez",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "cypress": "^9.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
